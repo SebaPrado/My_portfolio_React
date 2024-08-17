@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "./components/contact/Contact";
+import Contact from "./components/5-contact/Contact";
 import Experience from "./components/3-skills/Experience";
 import Footer from "./components/footer/Footer";
 import Header from "./components/1-header/Header";
