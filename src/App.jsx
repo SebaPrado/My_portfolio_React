@@ -1,11 +1,11 @@
 import React from "react";
 import Contact from "./components/5-contact/Contact";
-import Experience from "./components/3-skills/Experience";
-import Footer from "./components/6-footer/Footer";
+import Skills from "./components/3-skills/Skills";
+import Footer from "./components/7-footer/Footer";
 import Header from "./components/1-header/Header";
 import Intro from "./components/2-intro/Intro";
 import Portfolio from "./components/4-portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
+import Testimonials from "./components/6-testimonials/Testimonials";
 import Topbar from "./components/topbar/Topbar";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <Header />
       <Topbar />
       <Intro />
-      <Experience />
+      <Skills />
       <Portfolio />
       <Testimonials />
       <Contact />

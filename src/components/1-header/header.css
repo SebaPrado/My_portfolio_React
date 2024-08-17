@@ -7,7 +7,10 @@ header {
 .header__container {
   text-align: center;
   height: 100%;
+  min-height: 50rem;
+  width: 100%;
   position: relative;
+  background-image: url(../../../public/AgrEngineer.jpg);
 }
 
 .cta {
