@@ -1,6 +1,6 @@
 header {
   height: 100%;
-  padding-top: 7rem;
+  /* padding-top: 7rem; */
   overflow: hidden;
 }
 
@@ -11,6 +11,21 @@ header {
   width: 100%;
   position: relative;
   background-image: url(../../../public/AgrEngineer.jpg);
+  background-size: cover; /* Hace que la imagen se expanda para cubrir completamente el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  opacity: 0.78; /* Opacidad del 22% (100% - 22% = 78%) */
+}
+
+.header__container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; /* Altura del gradiente, ajusta según tu diseño */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #0b3d06); /* Gradiente blanco transparente a blanco sólido */
+  pointer-events: none; /* Permite que los eventos pasen a través del pseudo-elemento */
 }
 
 .cta {

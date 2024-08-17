@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import "./experience.css";
@@ -10,6 +12,10 @@ const Experience = () => {
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Full-stack Development</h3>
+          <div className="seba">
+            <img src="./icons/angular.svg" alt="" />
+
+          </div>
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
